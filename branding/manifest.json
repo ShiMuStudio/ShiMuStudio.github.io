@@ -2,19 +2,31 @@
   "schema_version": 1,
   "assets": [
     {
-      "id": "shimu-studio-group-logo-v1",
-      "source_filename": "studio-logo-v1.png",
+      "id": "shimu-studio-group-logo-v3",
+      "source_filename": "studio-logo-v3.png",
+      "repository_path": "branding/studio-logo-v3.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "f450c78c4610428abee9a49cafb70411e886bb953159355b4a395d5e20bd76dd",
+      "prompt_path": "branding/studio-logo-v3.prompt.txt",
+      "prompt_sha256": "01862d72a12b9c26ceccb17e4d9bd83ae2b96dde8c9f81083b53889e53b5b0b5",
+      "provenance": "OpenAI built-in image_gen; new logo requested by the studio owner on 2026-10-11, based on the blue-shirt carrier design and original ivory/beige carried-character design.",
+      "status": "current",
+      "character_reference_paths": [
+        "branding/characters/carrier-blue-shirt-turnaround-v6.png",
+        "branding/characters/carried-original-turnaround-v5.png"
+      ],
       "output_path": "assets/studio-logo.png",
-      "sha256": "815241ef5c877dc218f23d33dd6990f280a6f63ae0b30946c3ad7b1d5ba2bc69",
-      "provenance": "OpenAI built-in image_gen; selected by the studio owner on 2026-10-10.",
       "rights_status": "needs_review",
-      "status": "selected",
-      "release_tag": "branding-v1",
-      "storage": "Versioned branding files in this repository, as requested by the owner; branding-v1 Release also retains matching attachments.",
-      "release_url": "https://github.com/ShiMuStudio/ShiMuStudio.github.io/releases/tag/branding-v1",
-      "repository_path": "branding/studio-logo-v1.png",
-      "prompt_path": "branding/studio-logo-v1.prompt.txt",
-      "prompt_sha256": "171060257ee3ed0f9ac9719c597835e050cfb518c4884ef56cc4065a7726fe54"
+      "storage": "Versioned branding files in this repository; deployment reads the tracked image and verifies its SHA256.",
+      "generation_reference": {
+        "source_filename": "studio-logo-v2.png",
+        "sha256": "63c1ff0606e1bf7a166c3c807bb088039e6cbbafdfdbe16f804bc199c30c8737",
+        "storage": "Historical generation input, preserved in local draft archive; not an active repository asset."
+      },
+      "selected_on": "2026-10-11"
     }
   ]
 }

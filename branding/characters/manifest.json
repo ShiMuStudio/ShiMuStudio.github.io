@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "provenance": "OpenAI built-in image_gen",
+  "height_assignment_note": "暂按抱人角色172 cm、被抱角色170 cm；用户给出了两个身高，但未明确指定对应关系。",
+  "characters": [
+    {
+      "id": "shimu-carrier-blue-shirt-turnaround-v6",
+      "life_stage": "成年女大学生",
+      "height_cm": 172,
+      "body_style": "修长、自然纤细",
+      "outfit": "浅蓝宽松敞开衬衫、白色无袖内搭、灰色高腰短裤与黑腰带、白袜、黑色厚底搭扣低帮鞋",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "image_path": "branding/characters/carrier-blue-shirt-turnaround-v6.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "457106385d9ecf644fe5585f0673f6142237bb982b75c398bb53a058a2f330e7",
+      "prompt_path": "branding/characters/carrier-blue-shirt-turnaround-v6.prompt.txt",
+      "prompt_sha256": "1b743e8a4720eea1adaae23614157cfe7ea475a17c999ed2b7e165071255937d",
+      "status": "retained",
+      "role": "carrier",
+      "wardrobe_note": "保留截图穿搭方案；人物脸、刘海、深色长发沿用原Logo。",
+      "wardrobe_reference": "User-provided outfit screenshot 1c53f754-image.png; source remains in local attachments.",
+      "wardrobe_reference_sha256": "c60565b59210797165e6a61e12ee6ec1d897f56fa4b95502253a8d20f625f06e"
+    },
+    {
+      "id": "shimu-carried-original-turnaround-v5",
+      "life_stage": "成年女大学生",
+      "height_cm": 170,
+      "body_style": "保留原人物设计，转换为自然修长的全身站姿",
+      "outfit": "原Logo的宽松偏长奶白针织衫、米色／暖灰米色宽腿布裤、白色低帮系带鞋",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "image_path": "branding/characters/carried-original-turnaround-v5.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "cb90161c033670bd0158394dc62e3fab808eaf359cf39660531a8fa6ec40309d",
+      "prompt_path": "branding/characters/carried-original-turnaround-v5.prompt.txt",
+      "prompt_sha256": "7dcc95bacc5003b8dfc79e77fe35edf0df32eaa6831e7094e51eedf526506944",
+      "status": "retained",
+      "role": "carried",
+      "locked_reference_features": [
+        "原脸型与棕色眼睛比例",
+        "原侧分刘海与棕色卷发",
+        "原张嘴笑容",
+        "原宽松长针织衫与袖口",
+        "原米色宽腿布裤",
+        "原白鞋"
+      ]
+    }
+  ],
+  "current_focus": "保留蓝衬衫抱人女孩与原奶白针织衫被抱女孩的两张三视图及原始提示词，与新版Logo配套。",
+  "current_logo_path": "branding/studio-logo-v3.png",
+  "generation_reference": {
+    "source_filename": "studio-logo-v2.png",
+    "sha256": "63c1ff0606e1bf7a166c3c807bb088039e6cbbafdfdbe16f804bc199c30c8737",
+    "storage": "Historical generation input, preserved in local draft archive; not an active repository asset."
+  },
+  "retained_on": "2026-10-11"
+}

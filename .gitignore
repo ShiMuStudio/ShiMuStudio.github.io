@@ -11,4 +11,6 @@ __pycache__/
 .DS_Store
 .env
 .env.*
-!branding/studio-logo-v1.png
+!branding/studio-logo-v3.png
+!branding/characters/carrier-blue-shirt-turnaround-v6.png
+!branding/characters/carried-original-turnaround-v5.png
