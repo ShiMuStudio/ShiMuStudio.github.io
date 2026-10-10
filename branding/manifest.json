@@ -10,8 +10,11 @@
       "rights_status": "needs_review",
       "status": "selected",
       "release_tag": "branding-v1",
-      "storage": "External to Git; local assets directory or branding-v1 GitHub Release attachment.",
-      "release_url": "https://github.com/ShiMuStudio/ShiMuStudio.github.io/releases/tag/branding-v1"
+      "storage": "Versioned branding files in this repository, as requested by the owner; branding-v1 Release also retains matching attachments.",
+      "release_url": "https://github.com/ShiMuStudio/ShiMuStudio.github.io/releases/tag/branding-v1",
+      "repository_path": "branding/studio-logo-v1.png",
+      "prompt_path": "branding/studio-logo-v1.prompt.txt",
+      "prompt_sha256": "171060257ee3ed0f9ac9719c597835e050cfb518c4884ef56cc4065a7726fe54"
     }
   ]
 }
