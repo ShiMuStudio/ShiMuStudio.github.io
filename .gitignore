@@ -1,0 +1,9 @@
+assets/
+site/assets/
+*.png
+*.jpg
+*.webp
+__pycache__/
+.DS_Store
+.env
+.env.*

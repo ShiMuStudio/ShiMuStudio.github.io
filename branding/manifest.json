@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "shimu-studio-group-logo-v1",
+      "source_filename": "studio-logo-v1.png",
+      "output_path": "assets/studio-logo.png",
+      "sha256": "815241ef5c877dc218f23d33dd6990f280a6f63ae0b30946c3ad7b1d5ba2bc69",
+      "provenance": "OpenAI built-in image_gen; selected by the studio owner on 2026-10-10.",
+      "rights_status": "needs_review",
+      "status": "selected",
+      "release_tag": "branding-v1",
+      "storage": "External to Git; local assets directory or branding-v1 GitHub Release attachment."
+    }
+  ]
+}

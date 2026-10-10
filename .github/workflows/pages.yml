@@ -1,0 +1,51 @@
+name: Deploy website to GitHub Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout publication files
+        uses: actions/checkout@v4
+      - name: Download approved studio logo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download branding-v1 --repo "$GITHUB_REPOSITORY" --pattern studio-logo-v1.png --dir assets
+      - name: Verify logo and prepare website
+        run: |
+          python3 - <<'PYBUILD'
+          from pathlib import Path
+          import hashlib, json, shutil
+          manifest = json.loads(Path("branding/manifest.json").read_text())
+          for entry in manifest["assets"]:
+              source = Path("assets") / entry["source_filename"]
+              if hashlib.sha256(source.read_bytes()).hexdigest() != entry["sha256"]:
+                  raise SystemExit("Studio logo SHA256 mismatch")
+              output = Path("site") / entry["output_path"]
+              output.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(source, output)
+          Path("site/.nojekyll").touch()
+          PYBUILD
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
