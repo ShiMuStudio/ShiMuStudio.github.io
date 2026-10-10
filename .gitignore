@@ -1,5 +1,9 @@
 assets/
 site/assets/
+site/public/assets/
+node_modules/
+dist/
+.planning/
 *.png
 *.jpg
 *.webp
