@@ -10,7 +10,8 @@
       "rights_status": "needs_review",
       "status": "selected",
       "release_tag": "branding-v1",
-      "storage": "External to Git; local assets directory or branding-v1 GitHub Release attachment."
+      "storage": "External to Git; local assets directory or branding-v1 GitHub Release attachment.",
+      "release_url": "https://github.com/ShiMuStudio/ShiMuStudio.github.io/releases/tag/branding-v1"
     }
   ]
 }
