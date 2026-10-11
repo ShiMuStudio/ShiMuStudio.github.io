@@ -16,7 +16,7 @@
       "status": "current",
       "character_reference_paths": [
         "branding/characters/carrier-blue-shirt-turnaround-v6.png",
-        "branding/characters/carried-original-turnaround-v5.png"
+        "branding/characters/carried-tucked-turnaround-v6.png"
       ],
       "output_path": "assets/studio-logo.png",
       "rights_status": "needs_review",
@@ -26,7 +26,21 @@
         "sha256": "63c1ff0606e1bf7a166c3c807bb088039e6cbbafdfdbe16f804bc199c30c8737",
         "storage": "Historical generation input, preserved in local draft archive; not an active repository asset."
       },
-      "selected_on": "2026-10-11"
+      "selected_on": "2026-10-11",
+      "generation_character_references": [
+        {
+          "repository_path": "branding/characters/carrier-blue-shirt-turnaround-v6.png",
+          "sha256": "457106385d9ecf644fe5585f0673f6142237bb982b75c398bb53a058a2f330e7",
+          "role": "wardrobe_reference"
+        },
+        {
+          "source_filename": "carried-original-turnaround-v5.png",
+          "sha256": "cb90161c033670bd0158394dc62e3fab808eaf359cf39660531a8fa6ec40309d",
+          "role": "wardrobe_reference",
+          "storage": "Historical logo generation reference, preserved in local draft archive and Git history."
+        }
+      ],
+      "character_reference_note": "Current companion sheets; original logo generation inputs are recorded separately in generation_character_references."
     }
   ]
 }

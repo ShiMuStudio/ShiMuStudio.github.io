@@ -23,7 +23,7 @@
 
 ## 幕宁
 
-幕宁留暖棕色波浪长发，侧分刘海，保留原 Logo 的柔和脸型、棕色眼睛与开朗的张嘴笑容。日常穿宽松偏长的奶白针织衫、米色宽腿布裤和白色低帮系带鞋。
+幕宁留暖棕色波浪长发，侧分刘海，保留原 Logo 的柔和脸型、棕色眼睛与开朗的张嘴笑容。日常穿宽松奶白针织衫，下摆收进米色高腰宽腿布裤，腰线上方保留自然松量，搭配白色低帮系带鞋。
 
 她更愿意把开心和关心说出来，喜欢分享小发现，也会用轻松的玩笑化解尴尬。虽然常在画面里被拾夏抱着，她同样会注意对方的疲惫，主动安排休息、递水或帮忙。偶尔因为兴奋而临时改变计划，事后会认真补上遗漏。
 
@@ -39,6 +39,6 @@
 
 - [新版 Logo](../studio-logo-v3.png) 与 [原始提示词](../studio-logo-v3.prompt.txt)
 - [拾夏三视图](carrier-blue-shirt-turnaround-v6.png) 与 [原始提示词](carrier-blue-shirt-turnaround-v6.prompt.txt)
-- [幕宁三视图](carried-original-turnaround-v5.png) 与 [原始提示词](carried-original-turnaround-v5.prompt.txt)
+- [幕宁三视图](carried-tucked-turnaround-v6.png) 与 [原始提示词](carried-tucked-turnaround-v6.prompt.txt)
 
 三个生成提示词保留生成时的原文；本档案补充文字人设，后续创作按角色名关联对应三视图。

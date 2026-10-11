@@ -47,31 +47,31 @@
       }
     },
     {
-      "id": "shimu-carried-original-turnaround-v5",
+      "id": "shimu-carried-tucked-turnaround-v6",
       "life_stage": "成年女大学生",
       "height_cm": 170,
       "body_style": "保留原人物设计，转换为自然修长的全身站姿",
-      "outfit": "原Logo的宽松偏长奶白针织衫、米色／暖灰米色宽腿布裤、白色低帮系带鞋",
+      "outfit": "宽松奶白针织衫，下摆收进裤腰并在腰线上方保留自然松量；米色高腰宽腿布裤、白色低帮系带鞋",
       "views": [
         "front",
         "side",
         "back"
       ],
-      "image_path": "branding/characters/carried-original-turnaround-v5.png",
+      "image_path": "branding/characters/carried-tucked-turnaround-v6.png",
       "dimensions": [
         1536,
         1024
       ],
-      "sha256": "cb90161c033670bd0158394dc62e3fab808eaf359cf39660531a8fa6ec40309d",
-      "prompt_path": "branding/characters/carried-original-turnaround-v5.prompt.txt",
-      "prompt_sha256": "7dcc95bacc5003b8dfc79e77fe35edf0df32eaa6831e7094e51eedf526506944",
+      "sha256": "113a21c17a5780213343a8a1df3d606a771dac737a54d20a63af389118b61513",
+      "prompt_path": "branding/characters/carried-tucked-turnaround-v6.prompt.txt",
+      "prompt_sha256": "75cdff471c0a056235e7936402f88d386efa36ac3174f20ec7d75b5410a3190f",
       "status": "retained",
       "role": "carried",
       "locked_reference_features": [
         "原脸型与棕色眼睛比例",
         "原侧分刘海与棕色卷发",
         "原张嘴笑容",
-        "原宽松长针织衫与袖口",
+        "原奶白针织衫纹理与袖口，下摆收进裤腰",
         "原米色宽腿布裤",
         "原白鞋"
       ],
@@ -92,10 +92,25 @@
           "画小涂鸦",
           "寻找校园附近的新店"
         ]
-      }
+      },
+      "waist_styling": "针织衫下摆在正面、侧面、背面均收进裤腰，裤腰可见，上方自然蓬松。",
+      "correction_note": "2026-10-11 用户明确指出Logo中的针织衫收进裤腰；修正上一版三视图的外放衣摆。",
+      "generation_references": [
+        {
+          "source_filename": "carried-original-turnaround-v5.png",
+          "sha256": "cb90161c033670bd0158394dc62e3fab808eaf359cf39660531a8fa6ec40309d",
+          "role": "edit_target",
+          "storage": "Historical edit target, preserved in local draft archive and Git history."
+        },
+        {
+          "repository_path": "branding/studio-logo-v3.png",
+          "sha256": "f450c78c4610428abee9a49cafb70411e886bb953159355b4a395d5e20bd76dd",
+          "role": "wardrobe_reference"
+        }
+      ]
     }
   ],
-  "current_focus": "保留蓝衬衫抱人女孩与原奶白针织衫被抱女孩的两张三视图及原始提示词，与新版Logo配套。",
+  "current_focus": "保留蓝衬衫抱人女孩与奶白针织衫被抱女孩的三视图；被抱女孩针织衫下摆收进米色裤腰，三个视角穿法一致。",
   "current_logo_path": "branding/studio-logo-v3.png",
   "generation_reference": {
     "source_filename": "studio-logo-v2.png",
