@@ -1,61 +1,61 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "source_repository": "https://github.com/ShiMuStudio/production-kit",
   "source_revision": "4c67dd8b08962b8227632e1a5dcdaa0ddfb1a31f",
   "assets": [
     {
       "id": "shimu-studio-group-logo-v3",
-      "path": "assets/studio-logo.png",
+      "path": "assets/studio-logo.webp",
       "dimensions": [
-        1254,
-        1254
+        768,
+        768
       ],
-      "sha256": "f450c78c4610428abee9a49cafb70411e886bb953159355b4a395d5e20bd76dd"
+      "sha256": "5535b5e1df74456b7c85203c2b778e0758d47152d3989c39900175134890f4c3"
     },
     {
       "id": "shimu-studio-square-logo-v4",
-      "path": "assets/studio-logo-square.png",
+      "path": "assets/studio-logo-square.webp",
       "dimensions": [
-        1254,
-        1254
+        768,
+        768
       ],
-      "sha256": "70bf446afe55a39455fab2a6b3b582e3b537869835cdfbf9eacad911dd069566"
+      "sha256": "62394fd5ce30ff27fc404804426594eab11250fbaaf62041a757167fe4ce9a4c"
     },
     {
       "id": "shimu-carrier-low-heel-manga-turnaround-v9",
-      "path": "assets/characters/shixia-turnaround.png",
+      "path": "assets/characters/shixia-turnaround.webp",
       "dimensions": [
-        1536,
-        1024
+        1024,
+        683
       ],
-      "sha256": "5d96250ccc189354c38d7836ebcafef09c138e0953edced0756474ee34312de2"
+      "sha256": "3991a33ed10b0854ef6a09489a91647040a81f7d6620be08ba16f268f4beca31"
     },
     {
       "id": "shimu-carried-manga-turnaround-v8",
-      "path": "assets/characters/muning-turnaround.png",
+      "path": "assets/characters/muning-turnaround.webp",
       "dimensions": [
-        1536,
-        1024
+        1024,
+        683
       ],
-      "sha256": "cfd1be823240f244b57d0d20e08b8e4f4e7c5241a9e778fc0a4023af23448161"
+      "sha256": "0503391f747f55f0145bb0d0afcab2651702171d3f216ec3bb7134acd75a1989"
     },
     {
       "id": "shimu-linyou-turnaround-v4",
-      "path": "assets/characters/linyou-turnaround.png",
+      "path": "assets/characters/linyou-turnaround.webp",
       "dimensions": [
-        1536,
-        1024
+        1024,
+        683
       ],
-      "sha256": "dda4a9f25e87002d238cfa09a24e9ae081cb7aba44afb732f18e4ae464406831"
+      "sha256": "d3e18ab0c2748a106180acc523f566aa9de1c2cdb9ea1401c7decbeb425c9ef2"
     },
     {
       "id": "shimu-suyao-turnaround-v2",
-      "path": "assets/characters/suyao-turnaround.png",
+      "path": "assets/characters/suyao-turnaround.webp",
       "dimensions": [
-        1536,
-        1024
+        1024,
+        683
       ],
-      "sha256": "6f49d8f8691196de41aa824db3dbed792b6004adffc69420359bbde71f38c74e"
+      "sha256": "144dce6d2845218c5915e8f9957f1885d49945f156723de3ab5ea90750095bad"
     }
   ]
 }

@@ -1,8 +1,9 @@
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import sharp from 'sharp';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 
@@ -36,24 +37,39 @@ async function syncSiteAssets() {
     if (hash !== asset.sha256) {
       throw new Error(`SHA256 mismatch for ${source}`);
     }
-    prepared.push({ asset, bytes });
+    // Export a reduced display image; original PNG bytes stay in production-kit.
+    const maxEdge = asset.output_path.startsWith('assets/characters/') ? 1024 : 768;
+    const { data, info } = await sharp(bytes)
+      .resize({ width: maxEdge, height: maxEdge, fit: 'inside', withoutEnlargement: true })
+      .webp({ quality: 85, effort: 6 })
+      .toBuffer({ resolveWithObject: true });
+    prepared.push({
+      asset,
+      bytes: data,
+      path: asset.output_path.replace(/\.png$/, '.webp'),
+      dimensions: [info.width, info.height],
+      sha256: createHash('sha256').update(data).digest('hex'),
+    });
   }
 
-  for (const { asset, bytes } of prepared) {
-    const output = resolve(root, 'site/public', asset.output_path);
+  for (const { path, bytes } of prepared) {
+    const output = resolve(root, 'site/public', path);
     await mkdir(dirname(output), { recursive: true });
     await writeFile(output, bytes);
-    console.log(`Exported ${asset.output_path}`);
+    console.log(`Exported ${path}`);
+  }
+  for (const { asset } of prepared) {
+    await rm(resolve(root, 'site/public', asset.output_path), { force: true });
   }
   const manifest = {
-    schema_version: 1,
+    schema_version: 2,
     source_repository: 'https://github.com/ShiMuStudio/production-kit',
     source_revision: sourceRevision,
-    assets: prepared.map(({ asset }) => ({
+    assets: prepared.map(({ asset, path, dimensions, sha256 }) => ({
       id: asset.id,
-      path: asset.output_path,
-      dimensions: asset.dimensions,
-      sha256: asset.sha256,
+      path,
+      dimensions,
+      sha256,
     })),
   };
   await writeFile(resolve(root, 'site/assets-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
