@@ -26,16 +26,21 @@ Vite 构建产物位于 `dist/`，可直接作为纯静态网站部署。发布�
 
 ## 品牌素材
 
-保留新版 Logo、两张人设三视图和对应的三个原始提示词，共六个素材文件：
+保留圆徽章版与方形构图版 Logo、两张人设三视图，以及四份对应的原始生成／编辑提示词，共八个素材文件：
 
 | 素材 | 图片 | 生成提示词 |
 | --- | --- | --- |
-| 蓝衬衫新版 Logo（v3） | [Logo](branding/studio-logo-v3.png) | [prompt](branding/studio-logo-v3.prompt.txt) |
+| 圆徽章版 Logo（v3） | [Logo](branding/studio-logo-v3.png) | [prompt](branding/studio-logo-v3.prompt.txt) |
+| 方形构图版 Logo（v4） | [Logo](branding/studio-logo-square-v4.png) | [prompt](branding/studio-logo-square-v4.prompt.txt) |
 | 抱人女孩三视图（v6） | [人设图](branding/characters/carrier-blue-shirt-turnaround-v6.png) | [prompt](branding/characters/carrier-blue-shirt-turnaround-v6.prompt.txt) |
 | 被抱女孩三视图（v6） | [人设图](branding/characters/carried-tucked-turnaround-v6.png) | [prompt](branding/characters/carried-tucked-turnaround-v6.prompt.txt) |
 
 抱人女孩采用浅蓝敞开衬衫、白色内搭、灰色高腰短裤、白袜与黑色搭扣鞋；被抱女孩保留原来的棕色卷发、奶白针织衫收进裤腰、米色高腰宽腿布裤与白鞋。三视图包含正面、侧面和背面，暂按抱人女孩 172 cm、被抱女孩 170 cm 绘制，身高对应关系尚未明确指定。
 
-[品牌清单](branding/manifest.json) 与 [人物素材清单](branding/characters/manifest.json) 记录图片和提示词的 SHA256。三个提示词保留生成时的原文，旧稿已移到本地归档。
+[品牌清单](branding/manifest.json) 与 [人物素材清单](branding/characters/manifest.json) 记录图片和提示词的 SHA256。四个提示词保留生成时的原文，旧稿已移到本地归档。
 
 [拾夏与幕宁角色设定草案](branding/characters/profiles.md) 补充姓名、大学生身份、年龄、年级、性格及两人关系：拾夏为蓝衬衫抱人女孩，幕宁为奶白针织衫被抱女孩；新增文字设定供 PR review。
+
+方形构图版以满幅浅粉色背景呈现同一对人物，去掉圆形徽章边框，并保留被抱女孩收进裤腰的针织衫。
+
+<img src="branding/studio-logo-square-v4.png" width="180" alt="拾幕工作室方形构图 Logo">

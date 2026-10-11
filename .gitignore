@@ -12,5 +12,6 @@ __pycache__/
 .env
 .env.*
 !branding/studio-logo-v3.png
+!branding/studio-logo-square-v4.png
 !branding/characters/carrier-blue-shirt-turnaround-v6.png
 !branding/characters/carried-tucked-turnaround-v6.png
