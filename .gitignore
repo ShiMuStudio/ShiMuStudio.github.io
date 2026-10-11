@@ -1,6 +1,5 @@
-assets/
+/assets/
 site/assets/
-site/public/assets/
 node_modules/
 dist/
 .planning/
@@ -11,7 +10,11 @@ __pycache__/
 .DS_Store
 .env
 .env.*
-!branding/studio-logo-v3.png
-!branding/studio-logo-square-v4.png
-!branding/characters/carrier-low-heel-manga-turnaround-v9.png
-!branding/characters/carried-manga-turnaround-v8.png
+branding/
+# Published PNG copies used by the public website.
+!site/public/assets/studio-logo.png
+!site/public/assets/studio-logo-square.png
+!site/public/assets/characters/shixia-turnaround.png
+!site/public/assets/characters/muning-turnaround.png
+!site/public/assets/characters/linyou-turnaround.png
+!site/public/assets/characters/suyao-turnaround.png

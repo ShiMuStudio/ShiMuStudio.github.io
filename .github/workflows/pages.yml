@@ -28,7 +28,7 @@ jobs:
           cache: npm
       - name: Install build dependencies
         run: npm ci
-      - name: Verify logo and build static website
+      - name: Verify public website assets and build static website
         run: npm run build
       - name: Configure Pages
         uses: actions/configure-pages@v5
