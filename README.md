@@ -4,7 +4,7 @@
 
 网站：<https://shimustudio.github.io/>
 
-<img src="branding/studio-logo-v3.png" width="180" alt="拾幕工作室二次元女抱女 Logo">
+<img src="site/public/assets/studio-logo.png" width="180" alt="拾幕工作室二次元女抱女 Logo">
 
 ## 本地开发
 
@@ -22,25 +22,25 @@ npm run build
 npm run preview
 ```
 
-Vite 构建产物位于 `dist/`，可直接作为纯静态网站部署。发布时在 [部署工作流](https://github.com/ShiMuStudio/ShiMuStudio.github.io/actions/workflows/pages.yml) 中选择 `main`，手动运行。Push 不会自动发布。
+Vite 构建产物位于 `dist/`，作为纯静态网站部署。发布时在 [部署工作流](https://github.com/ShiMuStudio/ShiMuStudio.github.io/actions/workflows/pages.yml) 中选择 `main`，手动运行。Push 不会自动发布。
 
-## 品牌素材
+本仓库保持公开，保留网站所需的六张 PNG 副本。开发与构建按 [网站资源清单](site/assets-manifest.json) 校验 SHA256，Vite 将 `site/public/` 内的图片原样复制到产物；普通构建无需访问私有仓库或配置访问令牌。
 
-保留圆徽章版与方形构图版 Logo、两张人设三视图，以及四份对应的原始生成／编辑提示词，共八个素材文件：
+顶部图标使用圆徽章 Logo，首页使用方形 Logo，角色区展示拾夏、幕宁、林柚 168 cm 与苏遥 173 cm 的完整三视图，点击可查看图片。
 
-| 素材 | 图片 | 生成提示词 |
-| --- | --- | --- |
-| 圆徽章版 Logo（v3） | [Logo](branding/studio-logo-v3.png) | [prompt](branding/studio-logo-v3.prompt.txt) |
-| 方形构图版 Logo（v4） | [Logo](branding/studio-logo-square-v4.png) | [prompt](branding/studio-logo-square-v4.prompt.txt) |
-| 抱人女孩三视图（v9） | [人设图](branding/characters/carrier-low-heel-manga-turnaround-v9.png) | [prompt](branding/characters/carrier-low-heel-manga-turnaround-v9.prompt.txt) |
-| 被抱女孩三视图（v8） | [人设图](branding/characters/carried-manga-turnaround-v8.png) | [prompt](branding/characters/carried-manga-turnaround-v8.prompt.txt) |
+## 素材维护
 
-抱人女孩采用浅蓝敞开衬衫、白色内搭、灰色高腰短裤、白袜与黑色低跟搭扣乐福鞋；被抱女孩保留原来的棕色卷发、奶白针织衫收进裤腰、米色高腰宽腿布裤与白鞋。新版采用更修长、纤细的漫画腿比例，两人的头部尺度接近，拾夏黑鞋降低后跟与厚底并适当加长鞋楦，并细化发丝、衣料纹理、缝线、腰头与鞋面；三视图包含正面、侧面和背面，暂按抱人女孩 172 cm、被抱女孩 170 cm 绘制，身高对应关系尚未明确指定。
+源图、原始生成／编辑提示词、角色设定、四人合照与来源记录的权威目录位于私有 [production-kit 的 branding/](https://github.com/ShiMuStudio/production-kit/tree/main/branding)。本仓库的 `branding/` 不再纳入版本管理。
 
-[品牌清单](branding/manifest.json) 与 [人物素材清单](branding/characters/manifest.json) 记录图片和提示词的 SHA256。四个提示词保留生成时的原文，旧稿已移到本地归档。
+在拥有素材仓库访问权限的本地环境更新素材：
 
-[拾夏与幕宁角色设定草案](branding/characters/profiles.md) 补充姓名、大学生身份、年龄、年级、性格及两人关系：拾夏为蓝衬衫抱人女孩，幕宁为奶白针织衫被抱女孩；新增文字设定供 PR review。
+```sh
+git clone https://github.com/ShiMuStudio/production-kit.git ../production-kit
+# 在素材仓库提交 branding/ 更新后导出展示副本
+npm run assets:sync -- ../production-kit
+npm run build
+```
 
-方形构图版以满幅浅粉色背景呈现同一对人物，去掉圆形徽章边框，并保留被抱女孩收进裤腰的针织衫。
+同步脚本先验证所有原图 SHA256，再导出网站需要的图片，并记录素材仓库提交。审阅并提交网站 PNG 副本与清单，即可按现有工作流部署。
 
-<img src="branding/studio-logo-square-v4.png" width="180" alt="拾幕工作室方形构图 Logo">
+两版 Logo 保留拾夏抱幕宁的双人构图。四人合照保存在素材库，配对为拾夏公主抱幕宁、苏遥背林柚。

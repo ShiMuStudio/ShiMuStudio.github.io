@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/ShiMuStudio/production-kit",
+  "source_revision": "4c67dd8b08962b8227632e1a5dcdaa0ddfb1a31f",
+  "assets": [
+    {
+      "id": "shimu-studio-group-logo-v3",
+      "path": "assets/studio-logo.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "f450c78c4610428abee9a49cafb70411e886bb953159355b4a395d5e20bd76dd"
+    },
+    {
+      "id": "shimu-studio-square-logo-v4",
+      "path": "assets/studio-logo-square.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "70bf446afe55a39455fab2a6b3b582e3b537869835cdfbf9eacad911dd069566"
+    },
+    {
+      "id": "shimu-carrier-low-heel-manga-turnaround-v9",
+      "path": "assets/characters/shixia-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "5d96250ccc189354c38d7836ebcafef09c138e0953edced0756474ee34312de2"
+    },
+    {
+      "id": "shimu-carried-manga-turnaround-v8",
+      "path": "assets/characters/muning-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "cfd1be823240f244b57d0d20e08b8e4f4e7c5241a9e778fc0a4023af23448161"
+    },
+    {
+      "id": "shimu-linyou-turnaround-v4",
+      "path": "assets/characters/linyou-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "dda4a9f25e87002d238cfa09a24e9ae081cb7aba44afb732f18e4ae464406831"
+    },
+    {
+      "id": "shimu-suyao-turnaround-v2",
+      "path": "assets/characters/suyao-turnaround.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "6f49d8f8691196de41aa824db3dbed792b6004adffc69420359bbde71f38c74e"
+    }
+  ]
+}
