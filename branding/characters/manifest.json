@@ -4,27 +4,27 @@
   "height_assignment_note": "暂按抱人角色172 cm、被抱角色170 cm；用户给出了两个身高，但未明确指定对应关系。",
   "characters": [
     {
-      "id": "shimu-carrier-blue-shirt-turnaround-v6",
+      "id": "shimu-carrier-low-heel-manga-turnaround-v9",
       "life_stage": "成年女大学生",
       "height_cm": 172,
-      "body_style": "修长、自然纤细",
-      "outfit": "浅蓝宽松敞开衬衫、白色无袖内搭、灰色高腰短裤与黑腰带、白袜、黑色厚底搭扣低帮鞋",
+      "body_style": "漫画风修长比例：更长且纤细的腿部、流畅膝踝线条；两人采用接近的头部尺度，保留柔和的成年大学生气质。",
+      "outfit": "浅蓝宽松敞开衬衫、白色无袖内搭、灰色高腰短裤与黑腰带、白袜、黑色低跟搭扣乐福鞋",
       "views": [
         "front",
         "side",
         "back"
       ],
-      "image_path": "branding/characters/carrier-blue-shirt-turnaround-v6.png",
+      "image_path": "branding/characters/carrier-low-heel-manga-turnaround-v9.png",
       "dimensions": [
         1536,
         1024
       ],
-      "sha256": "457106385d9ecf644fe5585f0673f6142237bb982b75c398bb53a058a2f330e7",
-      "prompt_path": "branding/characters/carrier-blue-shirt-turnaround-v6.prompt.txt",
-      "prompt_sha256": "1b743e8a4720eea1adaae23614157cfe7ea475a17c999ed2b7e165071255937d",
+      "sha256": "5d96250ccc189354c38d7836ebcafef09c138e0953edced0756474ee34312de2",
+      "prompt_path": "branding/characters/carrier-low-heel-manga-turnaround-v9.prompt.txt",
+      "prompt_sha256": "b8bb9c68342830d26873a149209a753caa3990eca7a983ad815baf3d68c7f568",
       "status": "retained",
       "role": "carrier",
-      "wardrobe_note": "保留截图穿搭方案；人物脸、刘海、深色长发沿用原Logo。",
+      "wardrobe_note": "蓝衬衫等穿搭保留截图方案，脸、刘海与深色长发沿用原Logo；v9 按用户要求降低黑鞋后跟与厚底，并适当加长鞋楦。",
       "wardrobe_reference": "User-provided outfit screenshot 1c53f754-image.png; source remains in local attachments.",
       "wardrobe_reference_sha256": "c60565b59210797165e6a61e12ee6ec1d897f56fa4b95502253a8d20f625f06e",
       "profile": {
@@ -44,27 +44,48 @@
           "散步",
           "拍校园日常"
         ]
-      }
+      },
+      "generation_references": [
+        {
+          "source_filename": "carrier-manga-turnaround-v8.png",
+          "sha256": "73336fb18f726225d88d0c6fcafc9fc63288a41b9be1774268906495ff632163",
+          "role": "edit_target",
+          "storage": "Historical v8 edit target, preserved in local draft archive; not an active repository asset."
+        },
+        {
+          "repository_path": "branding/characters/carried-manga-turnaround-v8.png",
+          "sha256": "cfd1be823240f244b57d0d20e08b8e4f4e7c5241a9e778fc0a4023af23448161",
+          "role": "foot_scale_reference_only"
+        }
+      ],
+      "refinement_note": "v8 建立漫画腿比例与两人接近的头部尺度；v9 只细化 172 cm 女孩的低跟黑乐福鞋及脚部尺度，身体比例和身份延续 v8。",
+      "detail_features": [
+        "分层发丝与柔和高光",
+        "眼睛与表情细节",
+        "衣料纹理、缝线与自然褶皱",
+        "腰头、袖口与鞋面结构"
+      ],
+      "footwear_refinement": "2026-10-11 用户要求 172 cm 女孩鞋跟更低，并指出脚部比 170 cm 女孩显小；局部降低黑乐福鞋后跟与鞋底厚度，适当增加脚长与鞋楦，保留原漫画腿、袜子和头身比例。"
     },
     {
-      "id": "shimu-carried-tucked-turnaround-v6",
+      "id": "shimu-carried-manga-turnaround-v8",
       "life_stage": "成年女大学生",
       "height_cm": 170,
-      "body_style": "保留原人物设计，转换为自然修长的全身站姿",
+      "body_style": "漫画风修长比例：更长且纤细的腿部、流畅膝踝线条；两人采用接近的头部尺度，保留柔和的成年大学生气质。",
       "outfit": "宽松奶白针织衫，下摆收进裤腰并在腰线上方保留自然松量；米色高腰宽腿布裤、白色低帮系带鞋",
       "views": [
         "front",
         "side",
         "back"
       ],
-      "image_path": "branding/characters/carried-tucked-turnaround-v6.png",
+      "image_path": "branding/characters/carried-manga-turnaround-v8.png",
       "dimensions": [
         1536,
         1024
       ],
-      "sha256": "113a21c17a5780213343a8a1df3d606a771dac737a54d20a63af389118b61513",
-      "prompt_path": "branding/characters/carried-tucked-turnaround-v6.prompt.txt",
-      "prompt_sha256": "75cdff471c0a056235e7936402f88d386efa36ac3174f20ec7d75b5410a3190f",
+      "sha256": "cfd1be823240f244b57d0d20e08b8e4f4e7c5241a9e778fc0a4023af23448161",
+      "prompt_path": "branding/characters/carried-manga-turnaround-v8.prompt.txt",
+      "prompt_sha256": "2cbee6f63788f298613923181a3b238129cfe47db9da90e583be285cb88318d1",
       "status": "retained",
       "role": "carried",
       "locked_reference_features": [
@@ -97,20 +118,28 @@
       "correction_note": "2026-10-11 用户明确指出Logo中的针织衫收进裤腰；修正上一版三视图的外放衣摆。",
       "generation_references": [
         {
-          "source_filename": "carried-original-turnaround-v5.png",
-          "sha256": "cb90161c033670bd0158394dc62e3fab808eaf359cf39660531a8fa6ec40309d",
+          "source_filename": "carried-slender-detailed-turnaround-v7.png",
+          "sha256": "7ce521b5be53cdf2d7bc8d90d33018ff24c34f02dc5adc242cd25bb236b75491",
           "role": "edit_target",
-          "storage": "Historical edit target, preserved in local draft archive and Git history."
+          "storage": "Historical v7 edit target, preserved in local draft archive; not an active repository asset."
         },
         {
-          "repository_path": "branding/studio-logo-v3.png",
-          "sha256": "f450c78c4610428abee9a49cafb70411e886bb953159355b4a395d5e20bd76dd",
-          "role": "wardrobe_reference"
+          "sha256": "73336fb18f726225d88d0c6fcafc9fc63288a41b9be1774268906495ff632163",
+          "role": "matched_head_scale_and_manga_proportion_reference",
+          "source_filename": "carrier-manga-turnaround-v8.png",
+          "storage": "Historical v8 head-scale and manga-proportion reference, preserved in local draft archive. Current carrier v9 preserves the same anatomy and only edits footwear."
         }
+      ],
+      "refinement_note": "2026-10-11 用户要求漫画腿，并指出并排时被抱女孩头部偏大；v8 延长并细化腿部线条，以抱人女孩 v8 为参照统一被抱女孩的头部尺度，保留原脸型、发型与穿搭。",
+      "detail_features": [
+        "分层发丝与柔和高光",
+        "眼睛与表情细节",
+        "衣料纹理、缝线与自然褶皱",
+        "腰头、袖口与鞋面结构"
       ]
     }
   ],
-  "current_focus": "保留蓝衬衫抱人女孩与奶白针织衫被抱女孩的三视图；被抱女孩针织衫下摆收进米色裤腰，三个视角穿法一致。",
+  "current_focus": "拾夏 v9 与幕宁 v8 保留漫画风修长腿部和接近的头部尺度；拾夏黑乐福鞋降低后跟与厚底，脚部尺度适当增大，与幕宁协调。保留细化发丝、衣料和鞋面、成年大学生少女感，以及幕宁三个视角收进裤腰的针织衫。",
   "current_logo_path": "branding/studio-logo-v3.png",
   "generation_reference": {
     "source_filename": "studio-logo-v2.png",

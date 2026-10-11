@@ -15,8 +15,8 @@
       "provenance": "OpenAI built-in image_gen; new logo requested by the studio owner on 2026-10-11, based on the blue-shirt carrier design and original ivory/beige carried-character design.",
       "status": "current",
       "character_reference_paths": [
-        "branding/characters/carrier-blue-shirt-turnaround-v6.png",
-        "branding/characters/carried-tucked-turnaround-v6.png"
+        "branding/characters/carrier-low-heel-manga-turnaround-v9.png",
+        "branding/characters/carried-manga-turnaround-v8.png"
       ],
       "output_path": "assets/studio-logo.png",
       "rights_status": "needs_review",
@@ -29,9 +29,10 @@
       "selected_on": "2026-10-11",
       "generation_character_references": [
         {
-          "repository_path": "branding/characters/carrier-blue-shirt-turnaround-v6.png",
           "sha256": "457106385d9ecf644fe5585f0673f6142237bb982b75c398bb53a058a2f330e7",
-          "role": "wardrobe_reference"
+          "role": "wardrobe_reference",
+          "source_filename": "carrier-blue-shirt-turnaround-v6.png",
+          "storage": "Historical logo generation reference, preserved in local draft archive and Git history."
         },
         {
           "source_filename": "carried-original-turnaround-v5.png",
@@ -66,16 +67,23 @@
           "role": "edit_target"
         },
         {
-          "repository_path": "branding/characters/carrier-blue-shirt-turnaround-v6.png",
           "sha256": "457106385d9ecf644fe5585f0673f6142237bb982b75c398bb53a058a2f330e7",
-          "role": "wardrobe_reference"
+          "role": "wardrobe_reference",
+          "source_filename": "carrier-blue-shirt-turnaround-v6.png",
+          "storage": "Historical logo generation reference, preserved in local draft archive and Git history."
         },
         {
-          "repository_path": "branding/characters/carried-tucked-turnaround-v6.png",
           "sha256": "113a21c17a5780213343a8a1df3d606a771dac737a54d20a63af389118b61513",
-          "role": "wardrobe_reference"
+          "role": "wardrobe_reference",
+          "source_filename": "carried-tucked-turnaround-v6.png",
+          "storage": "Historical logo generation reference, preserved in local draft archive and Git history."
         }
-      ]
+      ],
+      "character_reference_paths": [
+        "branding/characters/carrier-low-heel-manga-turnaround-v9.png",
+        "branding/characters/carried-manga-turnaround-v8.png"
+      ],
+      "character_reference_note": "Current companion sheets; original variant-generation inputs remain recorded separately in generation_references."
     }
   ]
 }
