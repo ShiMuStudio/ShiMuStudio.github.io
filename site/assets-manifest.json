@@ -5,7 +5,7 @@
   "assets": [
     {
       "id": "shimu-studio-group-logo-v3",
-      "path": "assets/studio-logo.webp",
+      "path": "assets/logo/studio-logo.webp",
       "dimensions": [
         768,
         768
@@ -14,7 +14,7 @@
     },
     {
       "id": "shimu-studio-square-logo-v4",
-      "path": "assets/studio-logo-square.webp",
+      "path": "assets/logo/studio-logo-square.webp",
       "dimensions": [
         768,
         768
@@ -23,7 +23,7 @@
     },
     {
       "id": "shimu-carrier-low-heel-manga-turnaround-v9",
-      "path": "assets/characters/shixia-turnaround.webp",
+      "path": "assets/characters/shixia/turnaround.webp",
       "dimensions": [
         1024,
         683
@@ -32,7 +32,7 @@
     },
     {
       "id": "shimu-carried-manga-turnaround-v8",
-      "path": "assets/characters/muning-turnaround.webp",
+      "path": "assets/characters/muning/turnaround.webp",
       "dimensions": [
         1024,
         683
@@ -41,7 +41,7 @@
     },
     {
       "id": "shimu-linyou-turnaround-v4",
-      "path": "assets/characters/linyou-turnaround.webp",
+      "path": "assets/characters/linyou/turnaround.webp",
       "dimensions": [
         1024,
         683
@@ -50,7 +50,7 @@
     },
     {
       "id": "shimu-suyao-turnaround-v2",
-      "path": "assets/characters/suyao-turnaround.webp",
+      "path": "assets/characters/suyao/turnaround.webp",
       "dimensions": [
         1024,
         683

@@ -14,9 +14,9 @@ __pycache__/
 .env.*
 branding/
 # Compressed display images used by the public website.
-!site/public/assets/studio-logo.webp
-!site/public/assets/studio-logo-square.webp
-!site/public/assets/characters/shixia-turnaround.webp
-!site/public/assets/characters/muning-turnaround.webp
-!site/public/assets/characters/linyou-turnaround.webp
-!site/public/assets/characters/suyao-turnaround.webp
+!site/public/assets/logo/studio-logo.webp
+!site/public/assets/logo/studio-logo-square.webp
+!site/public/assets/characters/shixia/turnaround.webp
+!site/public/assets/characters/muning/turnaround.webp
+!site/public/assets/characters/linyou/turnaround.webp
+!site/public/assets/characters/suyao/turnaround.webp
