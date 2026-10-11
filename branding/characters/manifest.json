@@ -26,7 +26,25 @@
       "role": "carrier",
       "wardrobe_note": "保留截图穿搭方案；人物脸、刘海、深色长发沿用原Logo。",
       "wardrobe_reference": "User-provided outfit screenshot 1c53f754-image.png; source remains in local attachments.",
-      "wardrobe_reference_sha256": "c60565b59210797165e6a61e12ee6ec1d897f56fa4b95502253a8d20f625f06e"
+      "wardrobe_reference_sha256": "c60565b59210797165e6a61e12ee6ec1d897f56fa4b95502253a8d20f625f06e",
+      "profile": {
+        "status": "proposed_for_review",
+        "name": "拾夏",
+        "nickname": "小夏",
+        "age_years": 20,
+        "education_level": "本科",
+        "university_year": 2,
+        "personality": [
+          "安静温柔",
+          "行动利落",
+          "留意朋友的需要",
+          "接受关心时偶尔不好意思"
+        ],
+        "interests": [
+          "散步",
+          "拍校园日常"
+        ]
+      }
     },
     {
       "id": "shimu-carried-original-turnaround-v5",
@@ -56,7 +74,25 @@
         "原宽松长针织衫与袖口",
         "原米色宽腿布裤",
         "原白鞋"
-      ]
+      ],
+      "profile": {
+        "status": "proposed_for_review",
+        "name": "幕宁",
+        "nickname": "宁宁",
+        "age_years": 20,
+        "education_level": "本科",
+        "university_year": 2,
+        "personality": [
+          "明朗亲切",
+          "愿意表达关心",
+          "会主动照顾朋友",
+          "偶尔兴奋而改变计划"
+        ],
+        "interests": [
+          "画小涂鸦",
+          "寻找校园附近的新店"
+        ]
+      }
     }
   ],
   "current_focus": "保留蓝衬衫抱人女孩与原奶白针织衫被抱女孩的两张三视图及原始提示词，与新版Logo配套。",
@@ -66,5 +102,12 @@
     "sha256": "63c1ff0606e1bf7a166c3c807bb088039e6cbbafdfdbe16f804bc199c30c8737",
     "storage": "Historical generation input, preserved in local draft archive; not an active repository asset."
   },
-  "retained_on": "2026-10-11"
+  "retained_on": "2026-10-11",
+  "profiles_path": "branding/characters/profiles.md",
+  "profile_status": "proposed_for_review",
+  "relationship": {
+    "status": "proposed_for_review",
+    "type": "同校、同年级的好友",
+    "dynamic": "熟悉彼此、自在表达需求、互相照顾；Logo由拾夏抱幕宁，日常动作可依场景互换。"
+  }
 }
