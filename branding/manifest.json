@@ -42,5 +42,40 @@
       ],
       "character_reference_note": "Current companion sheets; original logo generation inputs are recorded separately in generation_character_references."
     }
+  ],
+  "logo_variants": [
+    {
+      "id": "shimu-studio-square-logo-v4",
+      "source_filename": "studio-logo-square-v4.png",
+      "repository_path": "branding/studio-logo-square-v4.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "70bf446afe55a39455fab2a6b3b582e3b537869835cdfbf9eacad911dd069566",
+      "prompt_path": "branding/studio-logo-square-v4.prompt.txt",
+      "prompt_sha256": "cf2c498543d45f8c0dbc9a86b47cc8f447118a18d446fc65a527db0cd4135af2",
+      "status": "design_variant",
+      "variant_type": "square_composition",
+      "background": "Full-square opaque blush-pink background without circular badge or border.",
+      "provenance": "OpenAI built-in image_gen; additional square-composition logo requested by the studio owner on 2026-10-11, preserving the current character identities, blue-shirt carrier outfit and tucked ivory sweater.",
+      "generation_references": [
+        {
+          "repository_path": "branding/studio-logo-v3.png",
+          "sha256": "f450c78c4610428abee9a49cafb70411e886bb953159355b4a395d5e20bd76dd",
+          "role": "edit_target"
+        },
+        {
+          "repository_path": "branding/characters/carrier-blue-shirt-turnaround-v6.png",
+          "sha256": "457106385d9ecf644fe5585f0673f6142237bb982b75c398bb53a058a2f330e7",
+          "role": "wardrobe_reference"
+        },
+        {
+          "repository_path": "branding/characters/carried-tucked-turnaround-v6.png",
+          "sha256": "113a21c17a5780213343a8a1df3d606a771dac737a54d20a63af389118b61513",
+          "role": "wardrobe_reference"
+        }
+      ]
+    }
   ]
 }

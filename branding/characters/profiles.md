@@ -37,8 +37,9 @@
 
 ## 视觉参考
 
-- [新版 Logo](../studio-logo-v3.png) 与 [原始提示词](../studio-logo-v3.prompt.txt)
+- [圆徽章版 Logo](../studio-logo-v3.png) 与 [原始提示词](../studio-logo-v3.prompt.txt)
+- [方形构图版 Logo](../studio-logo-square-v4.png) 与 [原始提示词](../studio-logo-square-v4.prompt.txt)
 - [拾夏三视图](carrier-blue-shirt-turnaround-v6.png) 与 [原始提示词](carrier-blue-shirt-turnaround-v6.prompt.txt)
 - [幕宁三视图](carried-tucked-turnaround-v6.png) 与 [原始提示词](carried-tucked-turnaround-v6.prompt.txt)
 
-三个生成提示词保留生成时的原文；本档案补充文字人设，后续创作按角色名关联对应三视图。
+四个生成／编辑提示词保留生成时的原文；本档案补充文字人设，后续创作按角色名关联对应三视图。
