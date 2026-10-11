@@ -31,7 +31,7 @@ async function verifySiteAssets() {
   }
 
   for (const asset of manifest.assets) {
-    if (!/^assets\/(?:characters\/)?[a-z0-9-]+\.webp$/.test(asset.path)) {
+    if (!/^assets\/(?:logo\/[a-z0-9-]+|characters\/[a-z0-9-]+\/[a-z0-9-]+)\.webp$/.test(asset.path)) {
       throw new Error(`Invalid website asset path: ${asset.path}`);
     }
     const bytes = await readFile(resolve(root, 'site/public', asset.path));
